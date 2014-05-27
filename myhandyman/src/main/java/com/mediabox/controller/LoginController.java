@@ -14,7 +14,7 @@ public class LoginController {
 	@RequestMapping(value = "login")
 	public ModelAndView login(HttpServletRequest request, HttpServletResponse response, LoginForm command) {
 		String username = command.getUsername();
-		ModelAndView mv = new ModelAndView("/login/index", "command",
+		ModelAndView mv = new ModelAndView("/index", "command",
 				"LOGIN SUCCESS, " + username);
 		return mv;
 	}

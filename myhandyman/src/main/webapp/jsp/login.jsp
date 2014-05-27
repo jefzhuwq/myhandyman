@@ -9,8 +9,8 @@
 <body>
 	<div>
 		<form action="login" method="get">
-			<input type="text" name="username"> <input type="submit"
-				value="SUBMIT">
+			<input type="text" name="username"> 
+			<input type="submit" value="SUBMIT">
 		</form>
 	</div>
 </body>

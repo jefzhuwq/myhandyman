@@ -2,7 +2,7 @@
 <body>
 <h2>Hello World!</h2>
 <%
-	request.getRequestDispatcher("login.jsp").forward(request, response);
+	request.getRequestDispatcher("/jsp/login.jsp").forward(request, response);
 %>
 </body>
 </html>
